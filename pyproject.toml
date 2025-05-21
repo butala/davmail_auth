@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "davmail_auth"
+version = "0.0.1"
+authors = [
+  { name="Mark D. Butala", email="Mark.Butala@glasgow.ac.uk" },
+]
+description = "Wrapper to davmail which, when required, opens Chrome and prompts the user for authentication."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/butala/davmail_auth"
+Issues = "https://github.com/butala/davmail_auth/issues"
