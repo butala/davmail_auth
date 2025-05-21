@@ -17,6 +17,10 @@ classifiers = [
 ]
 license = "MIT"
 license-files = ["LICEN[CS]E*"]
+dependencies = [
+    "sh",
+    "selenium"
+]
 
 [project.urls]
 Homepage = "https://github.com/butala/davmail_auth"
