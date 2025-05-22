@@ -9,6 +9,7 @@ import sh
 from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+# Another option is splinter --- some claim it has a better API than selenium.
 
 
 logger = logging.getLogger('davmail_auth')
